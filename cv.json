@@ -1,0 +1,33 @@
+{
+  "education": [
+    {
+      "Program": "Grafisk design & Kommunikation",
+      "School": "Mittuniversitetet",
+      "Years": "2014 - 2017",
+      "City": "Sundsvall"
+    },
+    {
+      "Program": "Sociologi 1 & 2",
+      "School": "Linköpings Universitet",
+      "Years": "2013 - 2014",
+      "City": "Linköping"
+    }
+  ],
+  "work": [
+    {
+      "Role": "Editor, layout",
+      "Company": "Dagens Nyheter",
+      "Years": "2019 - 2024"
+    },
+    {
+      "Role": "Editor, layout",
+      "Company": "Expressen",
+      "Years": "2018"
+    },
+    {
+      "Role": "Editor, layout",
+      "Company": "Mittmedia",
+      "Years": "2017"
+    }
+  ]
+}
