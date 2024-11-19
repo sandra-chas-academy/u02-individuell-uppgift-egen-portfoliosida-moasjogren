@@ -1,0 +1,39 @@
+@import url(./base.css);
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.contact-section h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--h-text-color);
+}
+
+.contact-section span {
+  font-size: 1.875rem;
+  font-weight: 600;
+  word-wrap: break-word;
+  background: linear-gradient(to left, rgba(25, 170, 242, 1) 0%, rgba(229, 18, 171, 1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact-section p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--text-color-black);
+}
+
+@media (min-width: 1024px) {
+  .contact-section h2 {
+    font-size: 58px;
+  }
+
+  .contact-section span {
+    font-size: 58px;
+  }
+}

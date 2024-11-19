@@ -1,0 +1,65 @@
+@import url(./base.css);
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.techstack-section h2 {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--h-text-color);
+}
+
+.techstack__container p {
+  font-weight: 400;
+  color: var(--text-color-grey);
+}
+
+.techstack__tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.techstack__tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.techstack__tech img {
+  width: 105px;
+  object-fit: contain;
+}
+
+.techstack__tools img {
+  width: 105px;
+  object-fit: contain;
+}
+
+#figma {
+  padding: 20px;
+}
+
+@media (min-width: 1024px) {
+  .techstack-section {
+    display: flex;
+    width: 70vw;
+  }
+
+  .techstack__container {
+    width: 50vw;
+  }
+  .techstack-section h2 {
+    font-size: 42px;
+    margin-top: 100px;
+  }
+
+  .techstack__container p {
+    font-size: 18px;
+  }
+}
