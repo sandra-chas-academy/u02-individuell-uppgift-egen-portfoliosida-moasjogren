@@ -2,6 +2,7 @@
 const cv = document.querySelector(".cv");
 const education = document.querySelector(".education");
 
+// Hämtar från JSON-fil och kör båda display-funtionerna
 async function getCv() {
   try {
     const response = await fetch("./cv.json");
@@ -15,6 +16,7 @@ async function getCv() {
     console.log("ERROR", error);
   }
 
+  // Visar tidigare jobb
   function displayCv(entry) {
     entry.forEach(function (item) {
       Object.entries(item).forEach(([key, value]) => {
@@ -33,6 +35,8 @@ async function getCv() {
       });
     });
   }
+
+  // Visar utbildning
   function displayEducation(entry) {
     entry.forEach(function (item) {
       Object.entries(item).forEach(([key, value]) => {
