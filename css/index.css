@@ -3,46 +3,36 @@
 .home-section {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  height: 100vh;
 }
 
 .welcome {
   color: var(--h-text-color);
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
-}
-
-.welcome span {
-  background: linear-gradient(to left, rgba(25, 170, 242, 1) 0%, rgba(229, 18, 171, 1) 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 700;
-  font-size: 1.5rem;
 }
 
 .gradient-border {
   width: 250px;
   height: 250px;
   object-fit: cover;
-  padding: 0.5rem;
   border-radius: 100%;
-  background: linear-gradient(to bottom, #e70faa, #00c0fd);
-  background-clip: padding-box, border-box;
-  background-origin: padding-box, border-box;
+  border: solid 0.5rem var(--h-text-color);
 }
 
 @media (min-width: 1024px) {
   .home-section {
-    width: 70vw;
+    width: 50vw;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
     height: 100vh;
   }
 
   .welcome {
     font-size: 4rem;
+    width: 50rem;
   }
 
   .welcome span {

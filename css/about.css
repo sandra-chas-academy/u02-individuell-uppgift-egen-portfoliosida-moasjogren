@@ -7,32 +7,8 @@
   margin-bottom: 1.5rem;
 }
 
-.about-section p {
-  color: var(--text-color-grey);
-}
-
 .about-section__container {
   margin-bottom: 100px;
-}
-
-.cv__top span {
-  color: var(--button-text-color);
-  background-color: var(--button-color);
-  padding: 0.2em 1em;
-  border-radius: 10px;
-  font-size: 11px;
-  font-weight: 600;
-}
-
-.about__intro p {
-  margin-bottom: 20px;
-  font-weight: 400;
-}
-
-.cv-entry {
-  border-bottom: 1.5px solid var(--text-color-grey);
-  margin-bottom: 40px;
-  line-height: 1.7rem;
 }
 
 .cv-sub__title {
@@ -42,22 +18,14 @@
   color: var(--text-color-grey);
 }
 
-.cv__top {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 0.8rem;
-}
-
-.cv__bottom p {
+.cv-p {
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 1px;
 }
 
-.cv__bottom {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.cv-p:last-child {
+  margin-bottom: 5rem;
 }
 
 .cv__bottom p:last-child {
@@ -68,33 +36,86 @@
   margin-right: 5px;
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    flex-direction: column;
-  }
+.techstack__container h2 {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--h-text-color);
+  margin-bottom: 1.5rem;
+}
 
+.techstack__container p {
+  font-weight: 400;
+  color: var(--text-color-grey);
+}
+
+.techstack__tech {
+  margin-bottom: 5rem;
+}
+
+.techstack__tools {
+  margin-bottom: 10rem;
+}
+
+.techstack__tech img {
+  width: 105px;
+  object-fit: contain;
+}
+
+.techstack__tools img {
+  width: 105px;
+  object-fit: contain;
+}
+
+#figma {
+  padding: 20px;
+}
+
+@media (min-width: 1024px) {
   .about-section {
-    width: 70vw;
+    width: 80vw;
     margin-top: 100px;
   }
 
   .about-section__container {
-    width: 60%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .about-section h2 {
-    font-size: 42px;
-    margin-bottom: 20px;
+    font-size: 4rem;
   }
 
   .about__intro p {
-    font-size: 18px;
+    font-size: 2rem;
   }
 
-  .cv-entry__bottom__left {
+  .techstack-section {
+    width: 80vw;
+  }
+
+  .techstack__container {
+    width: 70%;
     display: flex;
-    flex-direction: row;
-    gap: 20px;
+    justify-content: space-between;
+  }
+
+  .techstack__tech {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .techstack__tools {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .techstack-section h2 {
+    font-size: 42px;
+  }
+
+  .techstack__container p {
+    font-size: 2rem;
   }
 }

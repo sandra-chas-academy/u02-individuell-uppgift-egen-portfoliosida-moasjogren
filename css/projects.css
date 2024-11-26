@@ -96,7 +96,7 @@ body {
   }
 
   .projects-section__container {
-    width: 70vw;
+    width: 80vw;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;

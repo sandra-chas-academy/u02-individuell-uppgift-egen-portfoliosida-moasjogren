@@ -12,41 +12,67 @@
       <div class="header-top">
         <a href="index.html"><img class="header__logo" src="./img/placeholderlogo.png" alt="logo" /></a>
         <img class="hamburger" src="./img/placeholder-hamburger.svg" alt="hamburger menu icon" />
+        <ul class="social-links-mobile">
+          <li>
+            <a href="https://github.com/moasjogren"><img src="./img/github.svg" alt="github" /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/"><img src="./img/linkedin.svg" alt="linkedin" /></a>
+          </li>
+        </ul>
       </div>
       <!-- Header-Nav -->
       <nav>
         <ul class="nav-page-links">
           <li><a href="./index.html">Home</a></li>
           <li><a href="./about.html">About</a></li>
-          <li><a href="./techstack.html">Tech Stack</a></li>
           <li><a href="./projects.html">Projects</a></li>
           <li><a href="./contact.html">Contact</a></li>
         </ul>
-        <ul class="nav-social-links">
-          <li>
-            <a href="https://github.com/moasjogren"><img src="./img/github.svg" alt="github" /></a>
-          </li>
-          <li>
-            <a href="https://x.com/"><img src="./img/twitter.svg" alt="twitter" /></a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/"><img src="./img/linkedin.svg" alt="linkedin" /></a>
-          </li>
-        </ul>
       </nav>
+      <ul class="social-links-desktop">
+        <li>
+          <a href="https://github.com/moasjogren"><img src="./img/github.svg" alt="github" /></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/"><img src="./img/linkedin.svg" alt="linkedin" /></a>
+        </li>
+      </ul>
     </header>
     <!-- Section -->
     <section class="contact-section">
-      <h2>For any questions please contact:</h2>
-      <p>
-        <span>hi@example.com</span> <br />or<br />
-        <span>+46 70 12 34 567</span>
-      </p>
+      <div class="contact-container">
+        <h2>For any questions please contact:</h2>
+        <form class="form">
+          <fieldset class="form-name">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="form-name" />
+          </fieldset>
+          <fieldset class="form-email">
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="form-email" />
+          </fieldset>
+          <fieldset class="form-message">
+            <label for="message">Message:</label>
+            <textarea name="message" id="form-message"></textarea>
+          </fieldset>
+        </form>
+        <fieldset class="form-send">
+          <button type="submit">Send</button>
+        </fieldset>
+      </div>
+      <div class="modal">
+        <div class="modal-content">
+          <p>Thank you for your message!</p>
+          <button class="close-modal">CLOSE</button>
+        </div>
+      </div>
     </section>
     <!-- Footer -->
     <footer>
-      <p>Designed by <span>Pavan MG</span> | Built by <span>Moa Sjögren</span></p>
+      <p>Built by Moa Sjögren | Inspired by Pavan MG</p>
     </footer>
     <script src="./js/index.js"></script>
+    <script src="./js/contact.js"></script>
   </body>
 </html>
