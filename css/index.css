@@ -1,0 +1,43 @@
+@import url(./base.css);
+
+.home-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome {
+  color: var(--h-text-color);
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  width: 80vw;
+}
+
+.gradient-border {
+  order: -1;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: solid 0.5rem var(--h-text-color);
+}
+
+@media (min-width: 1024px) {
+  .home-section {
+    width: 80vw;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+  }
+
+  .welcome {
+    font-size: 5rem;
+    width: 40vw;
+  }
+
+  .gradient-border {
+    width: 40rem;
+    height: 40rem;
+  }
+}

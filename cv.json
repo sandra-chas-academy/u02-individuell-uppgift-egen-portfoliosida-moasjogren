@@ -1,0 +1,40 @@
+{
+  "education": [
+    {
+      "program": "Frontend JavaScript",
+      "school": "Chas Academy",
+      "years": "2024-Current",
+      "city": "Stockholm"
+    },
+
+    {
+      "program": "Grafisk design & Kommunikation",
+      "school": "Mittuniversitetet",
+      "years": "2014-2017",
+      "city": "Sundsvall"
+    },
+    {
+      "program": "Sociologi 1 & 2",
+      "school": "Linköpings Universitet",
+      "years": "2013-2014",
+      "city": "Linköping"
+    }
+  ],
+  "work": [
+    {
+      "role": "Editor, layout",
+      "company": "Dagens Nyheter",
+      "years": "2019-2024"
+    },
+    {
+      "role": "Editor, layout",
+      "company": "Expressen",
+      "years": "2018"
+    },
+    {
+      "role": "Editor, layout",
+      "company": "Mittmedia",
+      "years": "2017"
+    }
+  ]
+}
