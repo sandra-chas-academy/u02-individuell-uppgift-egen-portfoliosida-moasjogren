@@ -18,4 +18,4 @@ En filtyp för att lagra och strukturera data. JSON kan lagra olika typer av dat
 
 HTTP används för att skicka och ta emot data på internet. Det används för att ta användare eller information vidare och gör så att man tillexempel kan klicka på länkar som tar en till en annan hemsida. HTTPS används för att skicka och ta emot krypterad och säker data. Som frontendutvecklare är det bra att ha kunskap om HTTP för att kunna använda sig av dess olika funktioner så som att skicka, förändra eller ta bort data.
 
-### Länk till Netlify:
+### Länk till Netlify: https://moa-sjogren-u02.netlify.app/
