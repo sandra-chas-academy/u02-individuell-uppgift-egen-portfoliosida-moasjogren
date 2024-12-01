@@ -8,7 +8,7 @@ body {
 
 .projects__intro h2 {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 3rem;
   color: var(--h-text-color);
 }
 

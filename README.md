@@ -1,77 +1,21 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Y0f03qEq)
-# Instruktioner
+# Sammantfattning av projekt + teoretiska frågor
 
-Denna uppgift går ut på att du bygga vidare uppgift u01 - Portfoliosida utifrån designskiss med Javascript. Du är nu fri att ändra till egen design / layout, samt eget innehåll. Det är dock viktigt att du behåller en sektion för CV ("About me") och en sektion med projekt ("Projects") eftersom du ska vidareutveckla sidan med Javascript på dessa sektioner. 
+## 1. Du sammanfattar ditt projekt i README.md och reflekterar kring styrkor och ev brister. Max 500 ord.
 
-## Vad du ska göra
+Jag har använt mig av och byggt vidare på hemsidan som jag gjorde i U01-uppgiften. Jag har gjort små justeringar i utseendet. Jag har lagt till visa/göm-funktion i hamburgermenyn som syns i mobilversionen. Jag har även gjort ett formulär på kontaktsidan som visar en modal när man trycker på skicka. Mitt cv hämtas ur en JSON-fil, och mina publika repon på Github läses in med hjälp av en API. En brist är att det skulle kunna finnas kvar framför allt CSS-kod från den tidigare versionen (U01) som jag inte längre behöver, vilket gör att det skulle kunna ta lite extra tid att ladda sidan och gör CSS-filerna onödigt stora.
 
-Du ska bygga vidare på  u01 - Portfoliosida utifrån designskiss med Javascript. och se till att du följer följande kravställningar: 
+## 2. Du svarar på dessa frågor (max 800 ord):
 
-### CV i en fil:
-Dina egna utbildningar och tidigare arbetsplatser ska nu ersätta "About me"-sidan. Ta med så mycket som möjligt att ditt "riktiga CV", men iallafall minst tre poster av varje.
-Vilka utbildningar du läst och vilka tidigare arbeten du haft ska ligga i en separat fil i JSON-format. Denna JSON-fil ska läsas och och generera ditt CV på den tidigare motsvarigheten av "About me" sidan.
+### Vad kan man utveckla m.h.a av Javascript inom frontend?
 
+Olika typer av interaktivitet och funktionalitet på hemsidor. T.ex öppna och stänga menyer och olika funtionalitet till andra typer av knappar. Modalrutor och bildspel är andra exempel. Man kan även bygga olika typer av spel.
 
-### Interaktiva scripts:
-Din CV-sida ska innehålla minst två interaktiva JavaScript. Exempel kan vara en modal, slideshow, scroll-effekt, dölja/visa element, o.s.v
+### Vad är JSON och hur används det inom frontend?
 
-### Portfolio:
- Du publicerar minst två uppgifter / projekt från tidigare eller nuvarande studier / arbete inom HTML /CSS
+En filtyp för att lagra och strukturera data. JSON kan lagra olika typer av data, exempelvis JSON-objekt, arrayer, strings och tal. Formatet gör det enkelt att spara data i en separat fil för att sedan använda hela filen, eller delar av den i funktioner i JS-filer.
 
-### 👉  VG-krav
+### Vad är HTTP och varför bör man som frontendutvecklare ha kunskap om det och dess protokoll?
 
-Din portfolio ska utökas så att den hämtar in publika projekt som finns i din egen Github via API. Den ska visa dessa projekt i din portfolio med namn och beskrivning.
+HTTP används för att skicka och ta emot data på internet. Det används för att ta användare eller information vidare och gör så att man tillexempel kan klicka på länkar som tar en till en annan hemsida. HTTPS används för att skicka och ta emot krypterad och säker data. Som frontendutvecklare är det bra att ha kunskap om HTTP för att kunna använda sig av dess olika funktioner så som att skicka, förändra eller ta bort data.
 
-Du får gärna ha både dessa projekt och andra som genereras utifrån JSON-data om du känner för det, eller så ersätter du projekten så det bara är dina Github-projekt. Eventuellt kan du behöva komplettera datan från Github API med t.ex bilder ifrån JSON-datan.
-
-När hämtningen av projekten sker ska det finnas information om att projekten håller på att ladda in så att besökaren inte undrar varför sidan först är tom.
-
-
-
-### Tekniska krav:
-* Validerad med 0 fel på https://validator.w3.org
-* Inga errors i Console
-
-### Sammantfattning av projekt + teoretiska frågor
-
-1. Du sammanfattar ditt projekt i README.md och reflekterar kring styrkor och ev brister. Max 500 ord.
-2. Du svarar på dessa frågor (max 800 ord):
-
-Vad kan man utveckla m.h.a av Javascript inom frontend?
-Vad är JSON och hur används det inom frontend?
-Vad är HTTP och varför bör man som frontendutvecklare ha kunskap om det och dess protokoll?
-
-
-## Kriterier för bedömning
-
-
-Icke Godkänd (IG), Godkänd (G) eller Väl Godkänd (VG)
-
-### Godkänd (G)
-Din portfolio-sida uppfyller alla krav enligt kravspecifikationen.
-Du visar att du kan utan allvarliga brister eller missar utveckla denna portfoliosida enligt kraven
-Du sammanfattar ditt projekt samt ger ett översiktligt och korrekt svar på frågorna
-
-
-### Väl Godkänd (VG)
-
-Din portfolio-sida uppfyller alla krav enligt kravspecifikationen samt VG-kraven
-Du uppvisar en mer avancerad förståelse för Git genom att jobba med en developer-branch som du sedan mergar i main
-Du visar att du kan utan brister, eller bara i sådan omfattning att de knappt märks eller påverkar slutresultatet
-
-
-### Börja uppgift / Din inlämning
-* Du börjar och lämnar in din uppgift genom Github Classroom på denna länk.
-* Återkoppling ges i Canvas
-
-
-
-
-
-
-
-
-
-
-
-# 
+### Länk till Netlify:
